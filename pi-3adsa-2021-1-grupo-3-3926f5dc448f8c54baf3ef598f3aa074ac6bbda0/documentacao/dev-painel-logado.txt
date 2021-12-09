@@ -1,0 +1,68 @@
+Como salvar foto de perfil, é no backend ou frontend?
+
+------------------Painel Dev - INICIAL
+PADRÃO PÁGINA DEV
+	-> Status
+	-> Pontos
+	-> Foto Dev
+
+//-> Filtro clientes disponíveis:
+		-> CLiente Serviço:
+				-> Nome
+				-> Estrelinhas (avaliação)
+				-> Descrição
+				-> Foto
+				-> Favoritar
+				
+//----------------Painel Dev - SERVIÇOS -- falar na reunião
+// PADRÃO PÁGINA DEV
+	//-> Status
+	//-> Pontos
+	//-> Foto Dev
+ 
+ Tipos de solicitação:
+ - Solicitação de serviço
+ - Serviços em andamento
+ - Serviços concluídos
+ 
+ Informação da solicitação:
+ (- Status:
+ 		- Começar
+ 		- Em Desenvolvimento
+ 		- Encerrado
+ - Andamento (Progresso)) -> já foi realizado
+
+ //- Ver Detalhes - detalhar está parte 
+
+ - Categoria: (Listar todas as categorias) -> já foi realizado
+    - Desenvolvimento Web
+
+
+ - Descrição do Serviço -> já foi realizado
+ 
+- Contato: -> (Falar sobre está parte)
+ 		- nome
+ 		- telefone
+ 		
+----------------Painel Dev - FAVORITOS
+PADRÃO PÁGINA DEV
+	-> Status
+	-> Pontos
+	-> Foto Dev
+
+-> CLiente Serviço:
+				-> Nome
+				-> Estrelinhas (avaliação)
+				-> Descrição
+				-> Foto
+				-> Favoritar
+				
+---------------Painel Dev - NOTIFICAÇÕES
+
+- FULANO solicitou serviço com você.
+- FULANO2 favoritou seu perfil.
+- Pagamento efetuado de FULANO3.
+ 
+ 
+ 
+

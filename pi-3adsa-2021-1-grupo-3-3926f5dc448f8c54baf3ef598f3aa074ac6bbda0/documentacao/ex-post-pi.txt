@@ -1,0 +1,91 @@
+- User
+
+{
+"nameUser":"Gabriel Silva",
+"cpf":"65438718067",
+"birthDate":"1990-07-15",
+"company":false,
+"email":"gabriel@gmail.com",
+"password":"1234",
+"role":"dev",
+"phone":"11911112222"
+}
+{
+"nameUser":"Daniela Cardoso",
+"cpf":"51727130006",
+"birthDate":"1995-11-05",
+"company":false,
+"email":"daniela@gmail.com",
+"password":"1234",
+"role":"dev",
+"phone":"11911112222"
+}
+
+- Service
+
+{
+  "descriptionService":"Procuro desenvolvedor para criação do meu ecommerce.",
+  "tag":"Desenvolvimento Web"
+}
+
+- Experiência de trabalho
+post experience = passar path idUser
+
+{
+  "nameCompany":"Microsoft",
+  "startDateExperience": "2015-05-05",
+  "endDateExperience":"2017-05-05",
+  "descriptionExperience":"estagiário e fazendo aplicativos"
+}
+
+- Cursos feitos
+post formation = passar path idUser
+
+{
+  "nameInstitution":"Bandtec",
+  "course":"Desenvolvedor",
+  "languageFormation":"Java",
+  "startDateFormation": "2017-05-05",
+  "endDateFormation":"2019-05-05"
+}
+
+- Linguagens de programação
+post language = passar path idUser
+
+{
+  "nameLanguage":"Java"
+}
+
+- Ferramentas utilizadas
+post tool = passar path idUser
+
+{
+  "nameTool":"IntelliJ"
+}
+
+- Redes Sociais
+post network - passar path idUser
+
+{
+  "facebookName":"felipe franca",
+  "facebookUrl":"facebook.com",
+  "instagram": "felipef",
+  "instagramUrl": "instagram.com",
+  "linkedin":"felipe franca",
+  "linkedinUrl":"linkedin.com",
+  "github":"felipe-franca",
+  "githubUrl":"github.com"
+}
+
+idExperience
+idFormation
+idLanguage
+idTool
+idNetwork
+
+
+
+
+
+
+

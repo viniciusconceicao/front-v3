@@ -1,0 +1,14 @@
+SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+        String dateInString = "07-06-2000";
+        Date dataFormato = formatter.parse(dateInString);
+        Date hoje = new Date();
+        Integer idade = hoje.getYear() - dataFormato.getYear();
+
+        if((hoje.getMonth() < dataFormato.getMonth())
+                || (hoje.getMonth() == dataFormato.getMonth()
+                && hoje.getDate() < dataFormato.getDate()))
+            idade--;
+
+        if (idade >= 18){
+            System.out.println("É maior de idade com " +idade+ " anos");
+        }

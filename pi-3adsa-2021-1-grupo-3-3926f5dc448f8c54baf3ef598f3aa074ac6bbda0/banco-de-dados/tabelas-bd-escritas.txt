@@ -1,0 +1,71 @@
+sd_user
+	id_user int
+	name_user varchar 50
+	cpf varchar 14
+	cnpj varchar 18
+	birth_date date
+	company tinyint
+	name_company varchar 45
+	email varchar 45
+	password varchar 45
+	role varchar 5
+	phone varchar 20
+	description_user varchar 200
+	xp decimal
+	photo bit 500
+	
+sd_service
+	id_service int
+	description_service varchar 40
+	active_service tinyint
+	tag varchar 30
+	specially varchar 30
+	description_rating varchar 200
+	stars double
+	
+users_with_services
+	fk_id_user int
+	fk_id_service int
+	start_date datetime
+	end_date datetime
+
+sd_networks
+	id_networks int
+	facebook varchar 200
+	instagram varchar 200
+	linkedin varchar 200
+	github 200
+	fk_id_user int
+	
+sd_favorites
+	fk_id_user_dev int
+	fk_id_user_cl int
+	favorites
+
+sd_experience
+	name_company varchar 70
+	start_date_experience datetime
+	end_date_experience datetime
+	description_experience varchaar 200
+	fk_id_user int
+	
+sk_tools
+	id_tools int
+	name_tools varchar 45
+	fk_id_user int
+	
+sk_language
+	id_language int
+	name_language varchar 45
+	fk_id_user int
+	
+sd_formation
+	id_formation int
+	name_institution varchar 50
+	course varchar 40
+	start_date_formation datetime
+	end_date_formation varchar 45
+	language_formation varchar 20
+	fk_id_user int
+
+

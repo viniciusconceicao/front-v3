@@ -1,0 +1,40 @@
+FLUXO DE SERVIÇOS GODEV
+
+1- cliente manda serviço -> dev
+(gera uma notificação para o dev de proposta serviço)
+POST - criação de serviço (OK)
+GET - "{idCliente} criou um serviço para você {idDev}"
+
+2- dev aceita serviço -> cliente
+(gera uma notificação para o cliente de serviço aceito)
+GET - lista serviços inativos (OK)
+POST - activeService = true (OK)
+
+3- os dois estão vinculados ao serviço
+GET - lista serviços ativos para dev (OK)
+GET - lista serviços ativos para client (OK)
+
+4- dev vai atualizando o serviço na barra de andamento
+(gera uma notificação para o cliente de status do serviço)
+PUT - progress = 10 em 10% (OK)
+
+
+5- dev atualiza o serviço em 100% -> cliente vai fazer uma avaliação do serviço
+(gera uma notificação para o cliente de serviço concluído e uma para o dev de avaliação do serviço feita)
+PUT - progress = 100 e activeService = true -> false (OK)
+(avaliação) POST - describeService -> descrição / starts -> 1 a 5.
+GET - da avaliação que o cliente fez do serviço. 
+GET - lista de serviços concluídos (OK)
+
+FLUXO DE PERFIL AVALIAÇÃO
+
+GET - lista de avaliações serviços
+GET - lista de serviços concluídos
+
+FLUXO DE NOTIFICAÇÃO
+
+chamar para GET nos POST e PUT de serviço.
+exemplo: GET - "{idCliente} criou um serviço para você {idDev}"
+
+
+

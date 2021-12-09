@@ -1,0 +1,66 @@
+PERFIL DEV
+
+ABA INICIAL
+
+Perfil:
+	- nome
+	- localidade (são paulo - sp)
+	- status:
+		- indisponível
+		- disponível
+	- pontos (1001 xp)
+	- estrelas (avaliação)
+	- sobre (descrição do dev)
+	- redes sociais
+	
+Competencias:
+ - Tecnologias (linguagens e ferramentas)
+ 
+Experiências:
+	- Nome empresa
+	- periodo de trabalho
+	- descrição do trabalho prestado
+	
+Formação Academica:
+	- nome faculdade
+	- curso
+	- ano início e final de curso
+
+Projetos Realizados: 
+	- Projetos no searchDevelopers:
+		- categoria (area de tecnologia)
+		- descrição do serviço prestado
+		- nome do cliente
+		- ver detalhes
+	- Projetos do Github:
+		- link dos projetos
+		- nome dos repositorios
+
+Reputação:
+	- estrelas (avaliação)
+	- mensagem de avaliação
+	- nome do cliente
+
+PERFIL CLIENTE
+
+Perfil:
+	- nome
+	- localidade (são paulo - sp)
+	- sobre (descrição do dev)
+	- redes sociais
+
+Necessidades:
+	- Categoria: tipo de desenvolvimento de ti
+	- Tecnologias de preferência
+	- modalidade de preferência:
+		- remoto
+		- presencial
+	- descrição do tipo de serviços para trabalhar
+	
+
+	
+	
+	
+
+		
+	

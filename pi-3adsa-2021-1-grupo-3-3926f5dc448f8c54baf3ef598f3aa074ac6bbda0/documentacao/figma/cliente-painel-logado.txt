@@ -1,0 +1,47 @@
+Cliente Painel Logado
+
+PÁGINA INICIAL
+
+- Foto
+- Nome
+- Minha Descrição:
+	- tipo de trabalho
+- Filtro de categorias de tecnologia
+- Desenvolvedores disponíveis
+	- nome
+	- estrelas (avaliação)
+	- área de tecnologia
+	- favoritar
+	- entre em contato
+
+PÁGINA SERVIÇOS
+
+- Solicitações:
+	- solicitações de serviço
+	- serviços em andamento
+	- serviços concluídos
+
+- Serviços em andamento:
+	- Status:
+		- Começar
+		- Em desenvolvimento
+		- Encerrado
+	- Andamento (Progresso) barra de progresso
+	- Ver detalhes
+	- categoria:
+		- desenvovimento web (uma de muitas categorias)
+		- descrição do serviço
+		- profissional:
+			- nome
+			- telefone
+
+PÁGINA NOTIFICAÇÃO
+
+- foto do dev
+- FULANO marcou sua solicitação de serviço como concluído.
+- FULANO atulizou o status da sua solicitação de serviço
+- FULANO aceitou sua solicitação de serviço
+- Pagamento efetuado para FULANO.
+
+
+	

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="1000dp"
+        android:layout_height="30dp"
+        android:id="@+id/nome_completo"
+        android:background="@drawable/input_pagamento"
+        android:text="Nome Completo"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/validade"
+        android:layout_below="@+id/nome_completo"
+        android:background="@drawable/input_pagamento"
+        android:inputType="date"
+        android:text="Validade"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/validade"
+        android:background="@drawable/input_pagamento"
+        android:inputType="number"
+        android:width="1000dp"
+        android:text="Código de segurança"
+        android:maxLength="3"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/n_cartao"
+        android:layout_width="1000dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/nome_completo"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/input_pagamento"
+        android:inputType="number"
+        android:maxLength="19"
+        android:textSize="20sp"
+        android:text="Número do cartão" />
+
+    <EditText
+        android:id="@+id/cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n_cartao"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/input_pagamento"
+        android:inputType="number"
+        android:maxLength="14"
+        android:textSize="20sp"
+        android:text="CPF" />
+
+    <EditText
+        android:id="@+id/data_nascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cpf"
+        android:background="@drawable/input_pagamento"
+        android:inputType="date"
+        android:text="Data de nascimento"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>

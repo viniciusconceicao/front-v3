@@ -1,0 +1,54 @@
+1 cliente pode ter vários serviços.
+1 dev pode ter vários serviços.
+vários devs para o mesmo serviço.
+
+1 cliente
+
+serviço principal
+	serviço de front react - 1 dev (produto)
+	serviço de back java - 1 dev ()
+	
+	
+1 produto ou lista de produtos - serviço front (cliente)
+CLIENTE
+	1 serviço ou muitos
+	
+	cliente -> serviço -> dev
+		cliente 1 -> 5 serviços -> 5 devs
+		
+	dev -> serviço -> cliente
+
+1 dev pode prestar 1 serviço ou lista de serviços - serviço backend
+
+DESENVOLVEDOR
+	1 serviço ou muitos
+	
+EXEMPLO IFOOD
+	
+pessoaFisica (dev) -> pedido (serviço) -> restarante (empresa)
+	pessoaFisica pode ter vários ou um pedido
+
+restaurante (empresa) -> pedido (serviço) -> pessoaFisica (dev)
+	restaurante pode ter vários ou um pedido
+	
+	1 DEV -> 1 SERVIÇO -> 1 CLIENTE
+	
+	1 DEV(RONALDO) -> 1 SERVIÇO -> 1 CLIENTE (RODRIGO)
+	1 DEV(RONALDO) ->	2 SERVIÇO -> 1 CLIENTE (LUANA)
+	1 DEV(RONALDO) -> 3 SERVIÇO -> 1 CLIENTE (ANA)
+	
+	1 CLIENTE (RODRIGO) -> 1 SERVIÇO -> 1 DEV (RONALDO)
+	1 CLIENTE (RODRIGO) -> 2 SERVIÇO -> 1 DEV (BEATRIZ)
+	1 CLIENTE (RODRIGO) -> 3 SERVIÇO -> 1 DEV	(GABRIELA)
+
+1 dev -> atributos -> cliente 1/n
+
+USUARIO(DEV) -> FAVORITOS <- USUARIO(EMPRESA)
+
+REGRA DE NEGÓCIO
+TELA
+BANCO DE DADOS
+CÓDIGO
+DIAGRAMA DE CLASSE
+	
+	

@@ -1,0 +1,86 @@
+REQUISIÇÕES PERFIL ------------------------------------
+
+OBS:
+- localhost:8080 não precisa
+- POST id do usuario logado
+- PUT id do serviço (experiencia, curso, linguagem, etc,)
+- GET id do usuario logado  
+
+POST e PUT
+
+- EXPERCIÊNCIAS de trabalho -----
+localhost:8080/api/experiences/{id}
+- CURSOS feitos -----
+localhost:8080/api/formations/{id}
+- LINGUAGENS de programação -----
+localhost:8080/api/languages/{id}
+- FERRAMENTAS utilizadas -----
+localhost:8080/api/tools/{id}
+- REDES SOCIAIS (network) -----
+localhost:8080/api/networks/{id}
+
+GET
+
+- Experiência de trabalho -----
+localhost:8080/api/experiences/user/{id}
+- Cursos feitos -----
+localhost:8080/api/formations/user/{id}
+- Linguagens de programação -----
+localhost:8080/api/languages/user/{id}
+- Ferramentas utilizadas -----
+localhost:8080/api/tools/user/{id}
+- Redes Sociais -----
+localhost:8080/api/networks/user/{id}
+
+REQUISIÇÕES DE SERVIÇOS -------------------------------------
+
+POST - CRIAÇÃO de serviço -----
+localhost:8080/api/services/client/{idClt}/dev/{idDev}
+GET - lista de TODOS os serviços não importando o estado -----
+localhost:8080/api/services/
+GET - um serviço NÃO IMPORTANDO O ESTADO -----
+localhost:8080/api/services/{idServico}
+
+GET - lista SOLICITAÇÕES de serviços -----
+localhost:8080/api/services/inactive
+GET - uma SOLICITAÇÕES de serviço -----
+localhost:8080/api/services/inactive/{idServico)
+
+GET - lista serviços em ANDAMENTO -----
+localhost:8080/api/services/active
+GET - um serviço em ANDAMENTO -----
+localhost:8080/api/services/active/{idServico}
+
+GET - lista serviços CONCLUÍDOS -----
+localhost:8080/api/services/finished
+GET - um serviço CONCLUÍDO -----
+localhost:8080/api/services/finished/{idServico}
+
+Para pegar o corpo de usuário a partir do id de serviço.
+GET localhost:8080/api/services/{idService}/user/{idUser}
+
+PUT - alterar algum valor de um serviço -----
+localhost:8080/api/services/{idServico}
+DELETE - deletar um serviço -----
+localhost:8080/api/services/{idServico}
+
+REQUISIÇÕES FAVORITOS ---------------------------------------
+
+POST - Criação de um favorito com o outro
+localhost:8080/api/favorites/client/{idClt}/dev/{idDev}
+
+GET - lista TODOS os favoritos
+localhost:8080/api/favorites
+
+GET - pegar um id usuario que pode ser CLIENTE ou DEV
+localhost:8080/api/favorites/type/{id}
+
+GET - pegar um id de favorito
+localhost:8080/api/favorites/{idFavorito}
+
+PUT - trocar estado de favorito do usuario
+localhost:8080/api/favorites/{idFavorito)
+
+DELETE - deletar favorito
+localhost:8080/api/favorites/{idFavorito}
+

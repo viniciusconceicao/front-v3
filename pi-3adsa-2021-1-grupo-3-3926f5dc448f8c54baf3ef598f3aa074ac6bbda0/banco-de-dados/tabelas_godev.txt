@@ -1,0 +1,50 @@
+Users
+	id_user
+	name_user
+  date_birth
+  cpf
+  cnpj
+  email
+	phone
+	password_login
+	date_creation
+
+Paper
+	id_paper
+	abbreviation
+	desc_paper
+
+Profile
+	id_profile
+	status_dev
+	photo
+	
+Service
+	id_service
+	name_service
+	date_creation
+	date_start
+	date_end
+	desc_service
+	category
+	progress
+	fk_user_dev
+	fk_user_client
+
+Social Media
+	id_social_media
+	facebook
+	instagram
+	github
+	linkedin
+	
+Notification
+	id_notification
+	type_notification
+	desc_notification
+	fk_user_dev
+	fk_user_client
+	
+
+
+	

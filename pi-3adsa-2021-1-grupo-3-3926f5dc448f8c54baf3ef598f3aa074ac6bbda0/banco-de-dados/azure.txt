@@ -1,0 +1,4 @@
+grupo de recursos: searchdevelopers
+servidor: srvgodev
+login: searchdevelopers
+senha: #Gfgrupo3
